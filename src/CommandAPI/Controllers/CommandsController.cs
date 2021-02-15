@@ -12,6 +12,8 @@ namespace CommandAPI.Controllers
     [ApiController]
     public class CommandsController : ControllerBase
     {
+        // Added comment to test Azure DevOps Pipeline build
+
         private readonly ICommandAPIRepo _repository;
         private readonly IMapper _mapper;
 
